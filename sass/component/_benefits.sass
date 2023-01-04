@@ -5,10 +5,10 @@
     display: flex
     gap: 30px
 
-  &__list__item
+  &__item
     list-style: none
 
-  &__list__item::before
+  &__item::before
     display: block
     content: ""
     height: 120px
@@ -18,16 +18,16 @@
     background-position: center
     border-radius: 4px
 
-  &__list__item--clock::before
+  &__item--clock::before
     background-image: url(../img/hw4/clock2.svg)
 
-  &__list__item--planning::before
+  &__item--planning::before
     background-image: url(../img/hw4/diagram3.svg)
 
-  &__list__item--technology::before
+  &__item--technology::before
     background-image: url(../img/hw4/astronaut4.svg)
 
-  &__list__item__tittle
+  &__tittle
     color: #212121
     font-size: 14px
     line-height: 1.14
@@ -36,6 +36,6 @@
     margin-bottom: 10px
     margin-top: 30px
 
-  &__list__item__desc
+  &__desc
     color: #757575
     line-height: 1.71
